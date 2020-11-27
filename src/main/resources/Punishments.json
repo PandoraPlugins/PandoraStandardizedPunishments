@@ -1,0 +1,17 @@
+{
+  _"comment": "Types of punishments: BAN, MUTE, KICK, WARN",
+  "Speed":{
+    "Occurrence 1": {
+      "MATERIAL": "STONE",
+      "length": "1month",
+      "PunishmentType": "BAN",
+      "reasons": {
+        "1": "Super speedy hack",
+        "2": "Mans going faster than 2mph",
+        "3": "CUSTOM",
+        "_comment": "CUSTOM allows the player to input their own reason"
+      }
+    }
+  }
+
+}

@@ -1,0 +1,14 @@
+name: PandoraPunishments
+version: ${project.version}
+main: me.nanigans.pandorapunishments.PandoraPunishments
+authors: [ProNanigans]
+description: Standardized punishment system for pandorapvp
+commands:
+  punish:
+    description: "Punish a player based on standardized punishments"
+    usage: "/punish <player>"
+    aliases: [pp, punishplayer]
+permissions:
+  PUNISH.PUNISH:
+    description: "Allows the player to use this command"
+    default: op
