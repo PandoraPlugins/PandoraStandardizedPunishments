@@ -25,6 +25,7 @@ public class Punish implements CommandExecutor {
                     if(args.length > 0) {
 
                         OfflinePlayer punished = Bukkit.getOfflinePlayer(args[0]);
+                        if(punished.hasPlayedBefore() && punished.getPlayer() != null) {
 
                             new PunishmentList(punished, player);
 
