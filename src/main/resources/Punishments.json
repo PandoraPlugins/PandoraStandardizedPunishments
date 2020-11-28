@@ -1,7 +1,7 @@
 {
-  _"comment": "Types of punishments: BAN, MUTE, KICK, WARN",
+  "_comment": "Types of punishments: BAN, MUTE, KICK, WARN",
   "Speed":{
-    "Occurrence 1": {
+    "Violation 1": {
       "MATERIAL": "STONE",
       "length": "1month",
       "PunishmentType": "BAN",
